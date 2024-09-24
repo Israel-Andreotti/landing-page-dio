@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+
+body {
+    background-color: rgb(5, 5, 5);
+}
+
+.banner {
+    background: url('/assets/images/banner.png');
+}
+
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: .7rem;
+}
+
+.banner-content .logo {
+    margin-block: 2rem;
+}
+
+.banner-content h1 {
+    margin:.8rem;
+    background: -webkit-linear-gradient(#33A8DB, #1472B7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: .1rem;
+}
+
+.banner-content p {
+    text-align: center;
+    width: 350px;
+    margin-bottom: .9rem;
+    color:white
+}
+
+.banner-content button {
+    font-size: .6rem;
+    padding: .7rem;
+    background: transparent;
+    color: #1472B7;
+    border: 2px solid  #1472B7;
+    text-transform: capitalize;
+    padding-inline: 1.5rem;
+    letter-spacing: .12rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.course-content-title {
+    color: #1472B7;
+    font-weight: 600;
+    padding-top: 3rem;
+    text-align: center;
+    letter-spacing: .2rem;
+    margin-bottom: 1rem;
+}
+
+/* CONTEUDO */
+#course-content P {
+    color: white;
+    text-align: center;
+    margin-inline: 20%;
+    font-size: .8rem;
+    margin-bottom: 1rem;
+}
+
+.modules-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.module {
+    margin: 1rem;
+    border: 1px solid #33A8DB;
+    color: white;
+    padding: 1rem;
+    border-radius: 40px;
+    width: 600px; 
+    text-align: center;
+}
+
+.module span {
+    color: #33A8DB;
+    font-size: .9rem;
+}
+
+/* BANNER*/
+
+#transform-world {
+    background-image: url('/assets/images/woman-code.png');
+    background-size: cover;
+    background-position: 0 -250px;
+    height: 350px;
+}
+
+#transform-world p {
+    color: white;
+    font-weight: 700;
+    font-size: 38px;
+    margin-left: 8rem;
+    width: 240px;
+    padding-top:5rem;
+    text-shadow: 3px 3px 2px #33A8DB;
+    text-transform: lowercase;
+}
+
+/* PROFISSIONAL */
+
+#professional-challenges {
+    color: #33A8DB;
+    margin-top: 5rem;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+#professional-challenges p {
+    color: white;
+    display: block;
+    margin: auto;
+    width: 660px;
+    font-size: .8rem;
+    padding-top: 1.4rem;
+}
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1.3rem;
+}
